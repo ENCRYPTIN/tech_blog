@@ -1,0 +1,38 @@
+/* blog previews / list */
+/* note: css class modules with cannot have hiphen(-) in them */
+.blogPreview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blogPreview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blogPreview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.blogPreview {
+  color: red;
+}
+
+.loadingBlogPreview {
+  background-color: rgba(
+    163,
+    154,
+    154,
+    0.1
+  ); /* Adjust alpha value for transparency */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Adjust alpha value for border transparency */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  margin: 10px 0;
+  width: 80%; /* Adjust width as needed */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blogPreview a {
+  text-decoration: none;
+}
